@@ -55,6 +55,6 @@ int main() {
 /*
 COMPILE:
 sudo apt-get install libx11-dev #if missing
-gcc -o paint_app paint_app.c -lX11
+gcc -o paint_app app.c -lX11
 ./paint_app
 */
